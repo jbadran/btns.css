@@ -1,1 +1,31 @@
-bower.json
+{
+  "name": "btns.css",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jbadran/btns.css",
+  "authors": [
+    "josephbadran <joseph@kondensator.se>"
+  ],
+  "description": "Nice btns for bootstrap",
+  "main": "dist/btns.css",
+  "keywords": [
+    "css",
+    "buttons",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./assets",
+    "test",
+    "tests",
+    "Gruntfile.js",
+    "package.json",
+    "*.md",
+    "*.html"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}

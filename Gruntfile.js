@@ -15,8 +15,8 @@ module.exports = function (grunt) {
 
     autoprefixer: {
       single_file: {
-        src: "less/btns.less",
-        dest: "less/btns.less"
+        src: "dist/btns.css",
+        dest: "dist/btns.css"
       }
     },
 
@@ -26,14 +26,16 @@ module.exports = function (grunt) {
           compile: true
         },
         files: {
-            'dist/btns.less': ['dist/btns.less']
+            'dist/btns.css': ['dist/btns.css']
         }
       }
     },
 
     cssmin: {
-      files: {
-        "dist/btns.min.css": ["dist/btns.css"]
+      min: {
+        files: {
+          "dist/btns.min.css": ["dist/btns.css"]
+        }
       }
     },
 
