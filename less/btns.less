@@ -1,0 +1,86 @@
+@import "variables.less";
+@import "mixins.less";
+
+// Base class 
+// ------------------------------------------
+ 
+.btn,.btn-ol {
+  font-size:14px;
+  border: 0;
+  border-radius: 3px;
+  padding: .9em 1.8em .8em;
+  box-shadow: none;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+// Buttons 
+// ------------------------------------------
+
+.btn-default {
+  background-color: @btn-default;
+  color:#fff;
+  &:hover {
+    color:#fff;
+    background-color: darken(@btn-default, 8%)
+  }
+}
+
+
+// Outline buttons
+// ------------------------------------------
+
+.btn-ol-default {
+   .button-ol-variant(@btn-default);
+}
+
+.btn-ol-primary {
+  .button-ol-variant(@btn-blue);
+}
+
+.btn-ol-success {
+  .button-ol-variant(@btn-green);
+}
+
+.btn-ol-info {
+  .button-ol-variant(@btn-blue);
+}
+
+.btn-ol-warning {
+  .button-ol-variant(@btn-orange);
+}
+
+.btn-ol-danger {
+  .button-ol-variant(@btn-red);
+}
+
+
+.btn-ol-red {
+  .button-ol-variant(@btn-red);
+}
+
+.btn-outline-orange {
+  //.button-border-variant(@btn-border-orange-color);
+}
+
+// Regular buttons
+// ------------------------------------------
+
+
+// Button size
+// ------------------------------------------
+
+.btn-sm {
+  .button-size-variant(@btn-small-size);
+}
+
+.btn-lg {
+  .button-size-variant(@btn-large-size);
+}
