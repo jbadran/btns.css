@@ -49,7 +49,7 @@ module.exports = function (grunt) {
   
   require("load-grunt-tasks")(grunt);
 
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ["less","watch"]);
   grunt.registerTask('build', ["less","autoprefixer","recess","cssmin"]);
 
 };

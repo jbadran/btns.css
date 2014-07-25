@@ -1,6 +1,6 @@
 {
   "name": "btns.css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/jbadran/btns.css",
   "authors": [
     "josephbadran <joseph@kondensator.se>"
@@ -20,12 +20,13 @@
     "./assets",
     "test",
     "tests",
+    "less",
     "Gruntfile.js",
     "package.json",
     "*.md",
     "*.html"
   ],
   "dependencies": {
-    "bootstrap": "~3.1.1"
+    "bootstrap": "*"
   }
 }

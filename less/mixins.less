@@ -1,11 +1,11 @@
 .button-ol-variant(@color){
-  color:darken(@color,10%);
-  padding:.8em 1.65em .7em;
+  color:darken(@color,8%);
+  padding:.8em 1.65em .6em;
   border:2px solid @color;
-  //box-shadow: 0 0 0 2px @color inset;
   background-color: transparent; 
 
   &:hover {
+    color:darken(@color, 14%);
     border-color: darken(@color, 10%);
     background-color: transparent; 
   }
@@ -21,17 +21,6 @@
     cursor: default;
     box-shadow: 0 0 0 2px @color inset;
     color:darken(@color,10%);
-  }
-}
-
-.button-variant(@color){
-  background: @color;
-  &:hover,
-  &:focus,
-  &:active,
-  &.active {
-    background: darken(@color, 10%);
-    color:#fff;
   }
 }
 
