@@ -177,7 +177,7 @@
 .btn-sm.btn-ol-warning,
 .btn-sm.btn-ol-danger,
 .btn-sm.btn-ol-default {
-  padding: .75em 1.65em .6em;
+  padding: .75em 1.63em .6em;
 }
 .btn-xs {
   font-size: 12px;
@@ -190,7 +190,7 @@
 .btn-xs.btn-ol-warning,
 .btn-xs.btn-ol-danger,
 .btn-xs.btn-ol-default {
-  padding: .3em 1.65em .25em;
+  padding: .3em 1.35em .25em;
 }
 /*
 
