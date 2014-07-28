@@ -8,15 +8,15 @@ module.exports = function (grunt) {
     less: {
       development: {
         files: {
-          "dist/btns.css":"less/btns.less"
+          "css/btns.css":"less/btns.less"
         }
      }
     },
 
     autoprefixer: {
       single_file: {
-        src: "dist/btns.css",
-        dest: "dist/btns.css"
+        src: "css/btns.css",
+        dest: "css/btns.css"
       }
     },
 
@@ -26,7 +26,7 @@ module.exports = function (grunt) {
           compile: true
         },
         files: {
-            'dist/btns.css': ['dist/btns.css']
+            'css/btns.css': ['css/btns.css']
         }
       }
     },
@@ -34,7 +34,7 @@ module.exports = function (grunt) {
     cssmin: {
       min: {
         files: {
-          "dist/btns.min.css": ["dist/btns.css"]
+          "css/btns.min.css": ["css/btns.css"]
         }
       }
     },

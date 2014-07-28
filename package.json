@@ -1,6 +1,6 @@
 {
-  "name": "btns",
-  "version": "0.0.1",
+  "name": "btns.css",
+  "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-autoprefixer": "~0.7.2",
@@ -9,8 +9,5 @@
     "load-grunt-tasks": "~0.4.0",
     "grunt-recess": "^0.6.0",
     "grunt-contrib-cssmin": "^0.9.0"
-  },
-  "dependencies": {
-    "highlight.js": "^8.1.0"
   }
 }
