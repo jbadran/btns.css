@@ -1,163 +1,201 @@
 .btn,
 .btn-ol {
-  border: 0;
-  border-radius: 3px;
   padding: .9em 1.8em .8em;
-  box-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
   color: #fff;
   text-shadow: none;
-  background-image: none;
-  line-height: 1;
   vertical-align: middle;
-  -webkit-font-smoothing: antialiased;
-  transition: background-color 0.1s ease;
+  background-image: none;
+  border: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: background-color 0.1s ease;
+          transition: background-color 0.1s ease;
 }
+
 .btn:active,
 .btn-ol:active,
 .btn:focus,
 .btn-ol:focus {
   outline: none;
 }
+
 .btn-default {
-  background-color: #c7cbd3;
   color: #fff;
+  background-color: #c7cbd3;
 }
+
 .btn-default:hover,
 .btn-default:active,
 .btn-default:focus {
   color: #fff;
   background-color: #b0b6c1;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
+
 .btn-ol-default {
-  color: #b0b6c1;
   padding: .8em 1.65em .6em;
-  border: 2px solid #c7cbd3;
+  color: #b0b6c1;
   background-color: transparent;
+  border: 2px solid #c7cbd3;
 }
+
 .btn-ol-default:hover {
   color: #9fa6b4;
-  border-color: #aab0bd;
   background-color: transparent;
+  border-color: #aab0bd;
 }
+
 .btn-ol-default:active {
   background-color: transparent;
 }
+
 .btn-ol-default.btn-muted:hover,
 .btn-ol-default.btn-muted:active,
 .btn-ol-default.btn-muted:focus {
-  cursor: default;
-  box-shadow: 0 0 0 2px #c7cbd3 inset;
   color: #aab0bd;
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 2px #c7cbd3 inset;
+          box-shadow: 0 0 0 2px #c7cbd3 inset;
 }
+
 .btn-ol-primary {
-  color: #3276b1;
   padding: .8em 1.65em .6em;
-  border: 2px solid #428bca;
+  color: #3276b1;
   background-color: transparent;
+  border: 2px solid #428bca;
 }
+
 .btn-ol-primary:hover {
   color: #2b669a;
-  border-color: #3071a9;
   background-color: transparent;
+  border-color: #3071a9;
 }
+
 .btn-ol-primary:active {
   background-color: transparent;
 }
+
 .btn-ol-primary.btn-muted:hover,
 .btn-ol-primary.btn-muted:active,
 .btn-ol-primary.btn-muted:focus {
-  cursor: default;
-  box-shadow: 0 0 0 2px #428bca inset;
   color: #3071a9;
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 2px #428bca inset;
+          box-shadow: 0 0 0 2px #428bca inset;
 }
+
 .btn-ol-success {
-  color: #3b883b;
   padding: .8em 1.65em .6em;
-  border: 2px solid #47a447;
+  color: #3b883b;
   background-color: transparent;
+  border: 2px solid #47a447;
 }
+
 .btn-ol-success:hover {
   color: #317231;
-  border-color: #388038;
   background-color: transparent;
+  border-color: #388038;
 }
+
 .btn-ol-success:active {
   background-color: transparent;
 }
+
 .btn-ol-success.btn-muted:hover,
 .btn-ol-success.btn-muted:active,
 .btn-ol-success.btn-muted:focus {
-  cursor: default;
-  box-shadow: 0 0 0 2px #47a447 inset;
   color: #388038;
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 2px #47a447 inset;
+          box-shadow: 0 0 0 2px #47a447 inset;
 }
+
 .btn-ol-info {
-  color: #3276b1;
   padding: .8em 1.65em .6em;
-  border: 2px solid #428bca;
+  color: #3276b1;
   background-color: transparent;
+  border: 2px solid #428bca;
 }
+
 .btn-ol-info:hover {
   color: #2b669a;
-  border-color: #3071a9;
   background-color: transparent;
+  border-color: #3071a9;
 }
+
 .btn-ol-info:active {
   background-color: transparent;
 }
+
 .btn-ol-info.btn-muted:hover,
 .btn-ol-info.btn-muted:active,
 .btn-ol-info.btn-muted:focus {
-  cursor: default;
-  box-shadow: 0 0 0 2px #428bca inset;
   color: #3071a9;
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 2px #428bca inset;
+          box-shadow: 0 0 0 2px #428bca inset;
 }
+
 .btn-ol-warning {
-  color: #ed9c28;
   padding: .8em 1.65em .6em;
-  border: 2px solid #f0ad4e;
+  color: #ed9c28;
   background-color: transparent;
+  border: 2px solid #f0ad4e;
 }
+
 .btn-ol-warning:hover {
   color: #e38d13;
-  border-color: #ec971f;
   background-color: transparent;
+  border-color: #ec971f;
 }
+
 .btn-ol-warning:active {
   background-color: transparent;
 }
+
 .btn-ol-warning.btn-muted:hover,
 .btn-ol-warning.btn-muted:active,
 .btn-ol-warning.btn-muted:focus {
-  cursor: default;
-  box-shadow: 0 0 0 2px #f0ad4e inset;
   color: #ec971f;
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 2px #f0ad4e inset;
+          box-shadow: 0 0 0 2px #f0ad4e inset;
 }
+
 .btn-ol-danger {
-  color: #d2322d;
   padding: .8em 1.65em .6em;
-  border: 2px solid #d9534f;
+  color: #d2322d;
   background-color: transparent;
+  border: 2px solid #d9534f;
 }
+
 .btn-ol-danger:hover {
   color: #b92c28;
-  border-color: #c9302c;
   background-color: transparent;
+  border-color: #c9302c;
 }
+
 .btn-ol-danger:active {
   background-color: transparent;
 }
+
 .btn-ol-danger.btn-muted:hover,
 .btn-ol-danger.btn-muted:active,
 .btn-ol-danger.btn-muted:focus {
-  cursor: default;
-  box-shadow: 0 0 0 2px #d9534f inset;
   color: #c9302c;
+  cursor: default;
+  -webkit-box-shadow: 0 0 0 2px #d9534f inset;
+          box-shadow: 0 0 0 2px #d9534f inset;
 }
+
 .btn-lg {
   font-size: 18px;
 }
+
 .btn-lg.btn-ol-default,
 .btn-lg.btn-ol-primary,
 .btn-lg.btn-ol-success,
@@ -167,9 +205,11 @@
 .btn-lg.btn-ol-default {
   padding: .8em 1.7em .7em;
 }
+
 .btn-sm {
   font-size: 12px;
 }
+
 .btn-sm.btn-ol-default,
 .btn-sm.btn-ol-primary,
 .btn-sm.btn-ol-success,
@@ -179,10 +219,12 @@
 .btn-sm.btn-ol-default {
   padding: .75em 1.63em .6em;
 }
+
 .btn-xs {
-  font-size: 12px;
   padding: .5em 1.5em .4em;
+  font-size: 12px;
 }
+
 .btn-xs.btn-ol-default,
 .btn-xs.btn-ol-primary,
 .btn-xs.btn-ol-success,
@@ -192,18 +234,21 @@
 .btn-xs.btn-ol-default {
   padding: .3em 1.35em .25em;
 }
+
 /*
 
 Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 
 */
+
 .hljs {
   display: block;
-  overflow-x: auto;
   padding: 0.5em;
-  background: #f0f0f0;
+  overflow-x: auto;
   -webkit-text-size-adjust: none;
+  background: #f0f0f0;
 }
+
 .hljs,
 .hljs-subst,
 .hljs-tag .hljs-title,
@@ -212,6 +257,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .nginx .hljs-title {
   color: #2f6f9f;
 }
+
 .hljs-string,
 .hljs-title,
 .hljs-constant,
@@ -240,6 +286,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .coffeescript .hljs-attribute {
   color: #d44950;
 }
+
 .smartquote,
 .hljs-comment,
 .hljs-annotation,
@@ -250,6 +297,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .markdown .hljs-blockquote {
   color: #888;
 }
+
 .hljs-number,
 .hljs-date,
 .hljs-regexp,
@@ -267,6 +315,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .markdown .hljs-link_url {
   color: #080;
 }
+
 .hljs-label,
 .hljs-javadoc,
 .ruby .hljs-string,
@@ -298,6 +347,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .hljs-phony {
   color: #88f;
 }
+
 .hljs-keyword,
 .hljs-id,
 .hljs-title,
@@ -319,13 +369,16 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .hljs-status {
   font-weight: normal;
 }
+
 .asciidoc .hljs-emphasis,
 .markdown .hljs-emphasis {
   font-style: italic;
 }
+
 .nginx .hljs-built_in {
   font-weight: normal;
 }
+
 .coffeescript .javascript,
 .javascript .xml,
 .lasso .markup,
